@@ -49,7 +49,7 @@ public class MobileAutomation {
         accessPasswordLocators.mainScreenWait();
     }
     @After
-    public oid tearDown(){
+    public void tearDown(){
         driver.quit();
     }
 }
